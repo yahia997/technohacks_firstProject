@@ -1,0 +1,52 @@
+.steps {
+  background-image: url(../../public/bg-sidebar-desktop.svg);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  column-gap: 15px;
+  margin: 20px 0;
+}
+
+.step div {
+  display: flex;
+  flex-direction: column;
+}
+
+.step div small {
+  color: var(--Cool-gray);
+  font-size: 0.85rem;
+}
+
+.step div p {
+  font-weight: bold;
+  color: var(--White);
+}
+
+.count {
+  width: 35px;
+  height: 35px;
+  border: 2.5px solid var(--Light-blue);
+  color: var(--Light-blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.active {
+  color: var(--Marine-blue);
+  background-color: var(--Light-blue);
+}
+
+@media (max-width: 576px) {
+  .steps {
+    background-image: url(../../public/bg-sidebar-mobile.svg);
+  }
+}

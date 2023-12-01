@@ -1,0 +1,44 @@
+.form {
+  padding: 20px 50px;
+  position: relative;
+}
+
+.head {
+  color: var(--Marine-blue);
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+.info {
+  color: var(--Cool-gray);
+}
+
+/* Control buttons */
+.control {
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+}
+.control button {
+  padding: 10px 15px;
+}
+.next {
+  background-color: var(--Marine-blue);
+  color: var(--White);
+}
+.back {
+  color: var(--Cool-gray);
+  padding: 0 !important;
+  background-color: transparent;
+}
+.confirm {
+  background-color: rgb(72 62 254);
+  color: var(--White);
+}
+.confirm:hover {
+  background-color: rgb(147 141 251);
+}
+.hide {
+  visibility: hidden;
+}
