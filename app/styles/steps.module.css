@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  background-size: cover;
 }
 
 .step {
@@ -16,6 +17,7 @@
 .step div {
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
 }
 
 .step div small {
@@ -26,6 +28,7 @@
 .step div p {
   font-weight: bold;
   color: var(--White);
+  font-size: 0.9rem;
 }
 
 .count {
@@ -48,5 +51,12 @@
 @media (max-width: 576px) {
   .steps {
     background-image: url(../../public/bg-sidebar-mobile.svg);
+    border-radius: 0px;
+  }
+  .step div {
+    display: none;
+  }
+  .steps ul {
+    display: flex;
   }
 }

@@ -25,8 +25,10 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   background-color: var(--Magnolia);
+  overflow-x: hidden;
 }
 
 button {
@@ -38,13 +40,26 @@ button {
 
 input {
   border-radius: 5px;
-  border: 1px solid var(--Cool-gray);
+  border: 2px solid var(--Cool-gray);
   color: var(--Marine-blue);
   transition: all 0.3s ease;
+  padding: 8px 10px;
+}
+input::placeholder {
+  color: var(--Cool-gray);
+}
+input.error {
+  border: 2px solid var(--Strawberry-red);
+}
+input:focus {
+  border: 2px solid var(--Marine-blue);
+  outline: none;
 }
 label {
   color: var(--Marine-blue);
 }
-input:focus {
-  border: 1px solid var(--Marine-blue);
+@media (max-width: 576px) {
+  body {
+    align-items: flex-start;
+  }
 }
