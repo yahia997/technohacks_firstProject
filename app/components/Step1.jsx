@@ -46,6 +46,7 @@ export default function Step1({valid, setValid}) {
             onBlur={required}
             className={`${!valid.name ? "error" : ""}`}
             id="name"
+            placeholder="e.g. Stephen King"
           />
         </div>
 
@@ -61,6 +62,7 @@ export default function Step1({valid, setValid}) {
             onBlur={emailValidation}
             className={`${!valid.email ? "error" : ""}`}
             id="email"
+            placeholder="e.g. stephenking@lorem.com"
           />
         </div>
 

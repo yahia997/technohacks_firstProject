@@ -69,6 +69,7 @@
 .free {
   font-size: 1rem !important;
   font-weight: normal !important;
+  margin-top: 5px;
 }
 /* Monlyh or Yearly */
 .MorY {
@@ -124,6 +125,9 @@
   transition: border 0.2s ease;
   cursor: pointer;
   margin: 20px 0;
+}
+.servicePrice {
+  color: var(--Purplish-blue);
 }
 .service:hover,
 .checkedCont {

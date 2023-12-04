@@ -47,7 +47,7 @@ function Service({p1, p2, v1, v2, name}) {
         <p className={styles.serviceTitle}>{p1}</p>
         <p className={styles.servicedes}>{p2}</p>
       </div>
-      <p>{MorY === "Monthly" ? `+$${v1}/mo` : `+$${v2}/yr`}</p>
+      <p className={styles.servicePrice}>{MorY === "Monthly" ? `+$${v1}/mo` : `+$${v2}/yr`}</p>
     </div>
   );
 }
