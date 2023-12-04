@@ -9,6 +9,7 @@ export default function Step5() {
         width={60}
         height={60}
         alt="success"
+        priority
       />
       <h2>Thank you!</h2>
       <p>Thanks for confirming your subscription! We hope you have fun 

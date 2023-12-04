@@ -53,6 +53,7 @@ export default function Step2() {
             width={40}
             height={40}
             alt="Arcade"
+            priority
           />
           <div>
             <p>Arcade</p>
@@ -71,6 +72,7 @@ export default function Step2() {
             width={40}
             height={40}
             alt="Advanced"
+            priority
           />
           <div>
             <p>Advanced</p>
@@ -89,6 +91,7 @@ export default function Step2() {
             width={40}
             height={40}
             alt="Pro"
+            priority
           />
           <div>
             <p>Pro</p>
