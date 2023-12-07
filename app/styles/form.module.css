@@ -47,6 +47,7 @@
   transition: border 0.2s ease;
   display: flex;
   flex-direction: column;
+  min-height: 167.4px;
 }
 .item:hover,
 .active {
