@@ -80,7 +80,7 @@ export default function Form() {
           {step === 3 && <Step3/>}
           {step === 4 && <Step4/>}
           {step === 5 && <Step5/>}
-          {step !== 5 && <Control/>}
+          {step !== 5 && <Control setValid={setValid} />}
         </form>
       </setDataContext.Provider>
     </dataContext.Provider>

@@ -40,7 +40,7 @@ button {
 
 input {
   border-radius: 5px;
-  border: 1px solid var(--Light-gray);
+  border: 2px solid var(--Light-gray);
   color: var(--Marine-blue);
   transition: all 0.3s ease;
   padding: 10px;
