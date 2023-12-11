@@ -307,4 +307,7 @@
     height: 100%;
     padding: 10px;
   }
+  .item {
+    min-height: 97.4px;
+  }
 }
